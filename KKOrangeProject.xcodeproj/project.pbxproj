@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEDEDEB233E0D8500F7ABDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDEDEA233E0D8500F7ABDF /* AppDelegate.m */; };
+		5EEDEDEE233E0D8500F7ABDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDEDED233E0D8500F7ABDF /* ViewController.m */; };
+		5EEDEDF1233E0D8500F7ABDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDEDEF233E0D8500F7ABDF /* Main.storyboard */; };
+		5EEDEDF3233E0D8600F7ABDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDEDF2233E0D8600F7ABDF /* Assets.xcassets */; };
+		5EEDEDF6233E0D8600F7ABDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDEDF4233E0D8600F7ABDF /* LaunchScreen.storyboard */; };
+		5EEDEDF9233E0D8600F7ABDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDEDF8233E0D8600F7ABDF /* main.m */; };
+		5EEDEE03233E0D8600F7ABDF /* KKOrangeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDEE02233E0D8600F7ABDF /* KKOrangeProjectTests.m */; };
+		5EEDEE0E233E0D8700F7ABDF /* KKOrangeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDEE0D233E0D8700F7ABDF /* KKOrangeProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EEDEDFF233E0D8600F7ABDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEDEDDE233E0D8500F7ABDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEDEDE5233E0D8500F7ABDF;
+			remoteInfo = KKOrangeProject;
+		};
+		5EEDEE0A233E0D8600F7ABDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEDEDDE233E0D8500F7ABDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEDEDE5233E0D8500F7ABDF;
+			remoteInfo = KKOrangeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEDEDE6233E0D8500F7ABDF /* KKOrangeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKOrangeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEDEDE9233E0D8500F7ABDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EEDEDEA233E0D8500F7ABDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EEDEDEC233E0D8500F7ABDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EEDEDED233E0D8500F7ABDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EEDEDF0233E0D8500F7ABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EEDEDF2233E0D8600F7ABDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EEDEDF5233E0D8600F7ABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EEDEDF7233E0D8600F7ABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEDEDF8233E0D8600F7ABDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EEDEDFE233E0D8600F7ABDF /* KKOrangeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKOrangeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEDEE02233E0D8600F7ABDF /* KKOrangeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKOrangeProjectTests.m; sourceTree = "<group>"; };
+		5EEDEE04233E0D8600F7ABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEDEE09233E0D8600F7ABDF /* KKOrangeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKOrangeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEDEE0D233E0D8700F7ABDF /* KKOrangeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKOrangeProjectUITests.m; sourceTree = "<group>"; };
+		5EEDEE0F233E0D8700F7ABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEDEDE3233E0D8500F7ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEDFB233E0D8600F7ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEE06233E0D8600F7ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEDEDDD233E0D8500F7ABDF = {
+			isa = PBXGroup;
+			children = (
+				5EEDEDE8233E0D8500F7ABDF /* KKOrangeProject */,
+				5EEDEE01233E0D8600F7ABDF /* KKOrangeProjectTests */,
+				5EEDEE0C233E0D8700F7ABDF /* KKOrangeProjectUITests */,
+				5EEDEDE7233E0D8500F7ABDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEDEDE7233E0D8500F7ABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDEDE6233E0D8500F7ABDF /* KKOrangeProject.app */,
+				5EEDEDFE233E0D8600F7ABDF /* KKOrangeProjectTests.xctest */,
+				5EEDEE09233E0D8600F7ABDF /* KKOrangeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEDEDE8233E0D8500F7ABDF /* KKOrangeProject */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDEDE9233E0D8500F7ABDF /* AppDelegate.h */,
+				5EEDEDEA233E0D8500F7ABDF /* AppDelegate.m */,
+				5EEDEDEC233E0D8500F7ABDF /* ViewController.h */,
+				5EEDEDED233E0D8500F7ABDF /* ViewController.m */,
+				5EEDEDEF233E0D8500F7ABDF /* Main.storyboard */,
+				5EEDEDF2233E0D8600F7ABDF /* Assets.xcassets */,
+				5EEDEDF4233E0D8600F7ABDF /* LaunchScreen.storyboard */,
+				5EEDEDF7233E0D8600F7ABDF /* Info.plist */,
+				5EEDEDF8233E0D8600F7ABDF /* main.m */,
+			);
+			path = KKOrangeProject;
+			sourceTree = "<group>";
+		};
+		5EEDEE01233E0D8600F7ABDF /* KKOrangeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDEE02233E0D8600F7ABDF /* KKOrangeProjectTests.m */,
+				5EEDEE04233E0D8600F7ABDF /* Info.plist */,
+			);
+			path = KKOrangeProjectTests;
+			sourceTree = "<group>";
+		};
+		5EEDEE0C233E0D8700F7ABDF /* KKOrangeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDEE0D233E0D8700F7ABDF /* KKOrangeProjectUITests.m */,
+				5EEDEE0F233E0D8700F7ABDF /* Info.plist */,
+			);
+			path = KKOrangeProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEDEDE5233E0D8500F7ABDF /* KKOrangeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEDEE12233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProject" */;
+			buildPhases = (
+				5EEDEDE2233E0D8500F7ABDF /* Sources */,
+				5EEDEDE3233E0D8500F7ABDF /* Frameworks */,
+				5EEDEDE4233E0D8500F7ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKOrangeProject;
+			productName = KKOrangeProject;
+			productReference = 5EEDEDE6233E0D8500F7ABDF /* KKOrangeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EEDEDFD233E0D8600F7ABDF /* KKOrangeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEDEE15233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProjectTests" */;
+			buildPhases = (
+				5EEDEDFA233E0D8600F7ABDF /* Sources */,
+				5EEDEDFB233E0D8600F7ABDF /* Frameworks */,
+				5EEDEDFC233E0D8600F7ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEDEE00233E0D8600F7ABDF /* PBXTargetDependency */,
+			);
+			name = KKOrangeProjectTests;
+			productName = KKOrangeProjectTests;
+			productReference = 5EEDEDFE233E0D8600F7ABDF /* KKOrangeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EEDEE08233E0D8600F7ABDF /* KKOrangeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEDEE18233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProjectUITests" */;
+			buildPhases = (
+				5EEDEE05233E0D8600F7ABDF /* Sources */,
+				5EEDEE06233E0D8600F7ABDF /* Frameworks */,
+				5EEDEE07233E0D8600F7ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEDEE0B233E0D8600F7ABDF /* PBXTargetDependency */,
+			);
+			name = KKOrangeProjectUITests;
+			productName = KKOrangeProjectUITests;
+			productReference = 5EEDEE09233E0D8600F7ABDF /* KKOrangeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEDEDDE233E0D8500F7ABDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "world king";
+				TargetAttributes = {
+					5EEDEDE5233E0D8500F7ABDF = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5EEDEDFD233E0D8600F7ABDF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5EEDEDE5233E0D8500F7ABDF;
+					};
+					5EEDEE08233E0D8600F7ABDF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5EEDEDE5233E0D8500F7ABDF;
+					};
+				};
+			};
+			buildConfigurationList = 5EEDEDE1233E0D8500F7ABDF /* Build configuration list for PBXProject "KKOrangeProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEDEDDD233E0D8500F7ABDF;
+			productRefGroup = 5EEDEDE7233E0D8500F7ABDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEDEDE5233E0D8500F7ABDF /* KKOrangeProject */,
+				5EEDEDFD233E0D8600F7ABDF /* KKOrangeProjectTests */,
+				5EEDEE08233E0D8600F7ABDF /* KKOrangeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEDEDE4233E0D8500F7ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEDEDF6233E0D8600F7ABDF /* LaunchScreen.storyboard in Resources */,
+				5EEDEDF3233E0D8600F7ABDF /* Assets.xcassets in Resources */,
+				5EEDEDF1233E0D8500F7ABDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEDFC233E0D8600F7ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEE07233E0D8600F7ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEDEDE2233E0D8500F7ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEDEDEE233E0D8500F7ABDF /* ViewController.m in Sources */,
+				5EEDEDF9233E0D8600F7ABDF /* main.m in Sources */,
+				5EEDEDEB233E0D8500F7ABDF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEDFA233E0D8600F7ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEDEE03233E0D8600F7ABDF /* KKOrangeProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDEE05233E0D8600F7ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEDEE0E233E0D8700F7ABDF /* KKOrangeProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEDEE00233E0D8600F7ABDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEDEDE5233E0D8500F7ABDF /* KKOrangeProject */;
+			targetProxy = 5EEDEDFF233E0D8600F7ABDF /* PBXContainerItemProxy */;
+		};
+		5EEDEE0B233E0D8600F7ABDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEDEDE5233E0D8500F7ABDF /* KKOrangeProject */;
+			targetProxy = 5EEDEE0A233E0D8600F7ABDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EEDEDEF233E0D8500F7ABDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEDEDF0233E0D8500F7ABDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EEDEDF4233E0D8600F7ABDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEDEDF5233E0D8600F7ABDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EEDEE10233E0D8700F7ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EEDEE11233E0D8700F7ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EEDEE13233E0D8700F7ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EEDEE14233E0D8700F7ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EEDEE16233E0D8700F7ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKOrangeProject.app/KKOrangeProject";
+			};
+			name = Debug;
+		};
+		5EEDEE17233E0D8700F7ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKOrangeProject.app/KKOrangeProject";
+			};
+			name = Release;
+		};
+		5EEDEE19233E0D8700F7ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKOrangeProject;
+			};
+			name = Debug;
+		};
+		5EEDEE1A233E0D8700F7ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KKOrangeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhhh.KKOrangeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKOrangeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEDEDE1233E0D8500F7ABDF /* Build configuration list for PBXProject "KKOrangeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEDEE10233E0D8700F7ABDF /* Debug */,
+				5EEDEE11233E0D8700F7ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEDEE12233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEDEE13233E0D8700F7ABDF /* Debug */,
+				5EEDEE14233E0D8700F7ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEDEE15233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEDEE16233E0D8700F7ABDF /* Debug */,
+				5EEDEE17233E0D8700F7ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEDEE18233E0D8700F7ABDF /* Build configuration list for PBXNativeTarget "KKOrangeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEDEE19233E0D8700F7ABDF /* Debug */,
+				5EEDEE1A233E0D8700F7ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEDEDDE233E0D8500F7ABDF /* Project object */;
+}
